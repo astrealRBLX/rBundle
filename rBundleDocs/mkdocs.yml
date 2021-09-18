@@ -1,0 +1,42 @@
+site_name: rBundle Docs
+site_description: rBundle Plugin Documentation
+site_author: AstrealDev
+repo_url: https://github.com/astrealRBLX/rBundle
+repo_name: rBundle
+
+nav:
+  - Home: index.md
+  - Getting Started: start.md
+  - Developing Bundles: develop.md
+  - API: API.md
+
+theme:
+  name: material
+  logo: assets/rBundleLogo512.png
+  favicon: assets/rBundleLogo512.png
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: teal
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: teal
+  features:
+    - navigation.sections
+markdown_extensions:
+  - footnotes
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - admonition
+
+plugins:
+  - search
