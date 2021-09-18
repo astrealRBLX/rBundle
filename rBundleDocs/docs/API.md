@@ -4,7 +4,7 @@
 
 Installs a bundle from a GitHub repository string formatted as `owner/repository`
 
-### `shared.rBundle.install(repoList: { string })`
+#### `shared.rBundle.install(repoList: { string })`
 
 Installs bundles from GitHub repositories formatted as `owner/repository`
 
